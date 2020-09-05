@@ -1,0 +1,251 @@
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: black;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    .homeHeader {
+        background-color: black;
+        background-image: url(images/logo3.jpg);
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 20px;
+        height: 400px;
+    }
+
+    .homeHeader a {
+        text-decoration: none;
+        color: blanchedalmond;
+        margin-top: 40px;
+        text-transform: uppercase;
+    }
+    
+    .headerH {
+        color: white;
+        text-align: center;
+        font-size: 40px;
+        margin-top: 50px;
+    }
+
+
+   nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+     nav li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+
+
+
+    a:hover {
+        text-decoration: underline;
+    }
+  
+    
+       
+
+    .homeContent {
+     background-color: rgb(22, 16, 9);
+     padding: 20px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    }
+
+
+.homePicture {
+    margin-top: 80px;
+    margin-left: 20px;
+    height: 300px;
+    width: 100%;
+}
+
+.homeText {
+    margin-left: 10px;
+    color: white;   
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+
+/* Fourth page of CSS begins!*/
+
+
+
+
+   
+
+
+
+figcaption {
+    color: black;  
+}
+
+/* .SECOND PAGE OF CSS*/
+
+
+
+.aboutHeader {
+    background-color: black;
+    background-image: url(images/logo3.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    height: 400px;
+}
+
+.aboutHeader a {
+    text-decoration: none;
+    color: blanchedalmond;
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+
+.aboutheaderH {
+color: white;
+text-align: center;
+font-size: 40px;        
+margin-top: 50px;
+}
+
+
+.aboutContent {
+    height: 600px;
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.aboutContent p {
+    text-align: center; 
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 500px;
+    border-radius: 6px;
+    border: 1px solid white;
+    color: white;
+
+}
+
+.aboutContent img {
+    width: 700px;
+    height: 100%;
+    margin-right: 50px;
+}
+
+
+/*Third page of CSS */
+
+.portfolioHeader {
+    background-color: black;
+    background-image: url(images/logo3.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    height: 400px;
+}
+
+.portfolioHeader a {
+    text-decoration: none;
+    color: blanchedalmond;
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+
+.portfolioContent {
+    background-color: black;
+    padding: 20px;
+   display: flex;
+   flex-direction: row;
+
+   }
+
+   .portfolioContent figure {
+       margin: auto;
+       width: 100px;
+       text-align: center;
+   }
+
+   .portfolioContent img {
+       width: 200px;
+       border-radius: 50%;
+       box-shadow: whitesmoke 0 0 5px;
+   }
+
+   figcaption {
+    color: white;  
+}
+
+/*Fourth page of CSS!*/
+
+.contactpage {
+    background-color: darkgrey
+}
+
+section h3 {
+    padding-top: 20px;
+    margin-left: 20px;
+    color: white;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: tan;
+    padding: 20px;
+  }
+
+
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  input[type=submit] {
+    background-color: darkslategrey;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: red;
+  }
+  
+
+
+ footer {
+ background-color: black;
+ color: gray;
+ padding: 20px;
+ text-align: end;
+ font-size: 12px;
+    }
+
+
+
+    
+
+
